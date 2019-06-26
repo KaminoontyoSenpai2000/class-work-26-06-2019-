@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	background-color: purple;
+	animation-name: move;
+	animation-duration: 10s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes move {
+	
+	20% {
+		background-color: blue;
+	}
+
+	40% {
+		background-color: green;
+	}
+
+	60% {
+		background-color: red;
+	}
+
+	80% {
+		background-color: yellow;
+	}
+
+	100% {
+		background-color: white;
+	}
+}

@@ -1,0 +1,170 @@
+body {
+	margin: 0;
+	background-image: linear-gradient(to bottom, rgba(255, 0 ,0, 0.7),
+	rgba(255, 165, 0, 0.7), rgba(255, 255, 0, 0.7), rgba(0, 128, 0, 0.7),
+	rgba(0, 255, 255, 0.7), rgba(0, 0, 255, 0.7), rgba(128, 0, 128, 0.7) );
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.circle1 {
+	background-color: rgba(255, 255, 255, 1);
+	width: 100px;
+	height: 100px;
+	animation-name: move1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.circle2 {
+	background-color: rgba(255, 255, 255, 0.8);
+	width: 80px;
+	height: 80px;
+	animation-name: move2;
+	animation-duration: 5s;
+	animation-delay: 0.2s;
+	animation-iteration-count: infinite;
+}
+
+.circle3 {
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 60px;
+	height: 60px;
+	animation-name: move3;
+	animation-duration: 5s;
+	animation-delay: 0.3s;
+	animation-iteration-count: infinite;
+}
+
+.circle4 {
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 40px;
+	height: 40px;
+	animation-name: move4;
+	animation-duration: 5s;
+	animation-delay: 0.4s;
+	animation-iteration-count: infinite;
+}
+
+.circle5 {
+	background-color: rgba(255, 255, 255, 0.2);
+	width: 20px;
+	height: 20px;
+	animation-name: move5;
+	animation-duration: 5s;
+	animation-delay: 0.5s;
+	animation-iteration-count: infinite;
+}
+
+.container-flex {
+	width: 40%;
+	height: auto;
+}
+
+.circle {
+	display: flex;
+	border-radius: 50%;
+	position: absolute;	
+}
+
+@keyframes move1 {
+	25% {
+		transform: translate(0, -200px);
+	}
+
+	50% {
+		transform: translate(400px, 0px);
+	}
+
+	75% {
+		transform: translate(400px, -200px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes move2 {
+	25% {
+		transform: translate(0, -200px);
+	}
+
+	50% {
+		transform: translate(400px, 0px);
+	}
+
+	75% {
+		transform: translate(400px, -200px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes move3 {
+	25% {
+		transform: translate(0, -200px);
+	}
+
+	50% {
+		transform: translate(400px, 0px);
+	}
+
+	75% {
+		transform: translate(400px, -200px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes move4 {
+	25% {
+		transform: translate(0, -200px);
+	}
+
+	50% {
+		transform: translate(400px, 0px);
+	}
+
+	75% {
+		transform: translate(400px, -200px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes move5 {
+	25% {
+		transform: translate(0, -200px);
+	}
+
+	50% {
+		transform: translate(400px, 0px);
+	}
+
+	75% {
+		transform: translate(400px, -200px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+

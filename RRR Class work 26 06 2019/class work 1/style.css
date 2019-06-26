@@ -1,0 +1,46 @@
+ div {
+ 	display: inline-block;
+ }
+.one {
+	border-top: black 5px solid;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transform: rotateX(50deg) rotateZ(150deg) rotateY(50deg);
+}
+
+.two {
+
+	border-top: green 5px solid;
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+	transition: all 2s linear;
+}
+
+.two:hover {
+	transform: rotateX(60deg) translateZ(-100px);
+}
+
+.three {
+
+	border-top: blue 5px solid;
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+	transition: all 1s linear;
+	transform-style: preserve-3d;
+	transform: rotateY(100deg);
+}
+
+.nested {
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+	transform: rotateY(30deg);
+}
+
+.three:hover {
+	
+}
+
